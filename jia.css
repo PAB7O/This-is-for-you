@@ -1,0 +1,142 @@
+* {box-sizing:border-box}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+header{
+  height: 20vh;
+}
+body{
+  background-image: url(bg12.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+  float: center;
+  light-style-type: none;
+  margin-top: 100px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 60px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h1{
+  color: lightgoldenrodyellow;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 95px;
+  text-shadow: 0 0 15px #999;
+  margin-top: 200px;
+}
+h2{
+  color: lavenderblush;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 45px;
+  text-shadow: 0 0 15px #999;
+  margin-top: 100px;
+}
+h3{
+  color: lavenderblush;
+  font-family: "Times New Roman", serif;
+  font-size: 45px;
+  text-shadow: 0 0 15px #999;
+  margin-top: 100px;
+}
+p{
+  color: white;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 30px;
+  text-shadow: 0 0 15px #999;
+  margin-top: 100px;
+}
