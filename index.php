@@ -12,12 +12,12 @@
 	  <header>
 		  <div>
 			  <ul>
-					  <center><li><a href="jia.html">Click here if you wanna see a slideshow for you!</a></li></center>
+					  <center><li><a href="secret/jia.html">Click here if you wanna see a slideshow for you!</a></li></center>
 			  </ul>
 		  </div>
 		  <div>
 			  <ul>
-					  <center><li><a href="message.html">Click here if you wanna read my message for you!</a></li></center>
+					  <center><li><a href="sewcret/message.html">Click here if you wanna read my message for you!</a></li></center>
 			  </ul>
 		  </div>
   </header>
