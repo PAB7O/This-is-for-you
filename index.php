@@ -2,8 +2,8 @@
 <html> 
   <head>
 	  <title> Happy Anniversary </title> 
-	  <link href="jia.css" rel="stylesheet" type="text/css">
-    <link rel="icon" href="icon.png">
+	  <link href="secret/jia.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="secret/icon.png">
   </head>
   <body>
 	  <center>
